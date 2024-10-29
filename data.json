@@ -1,0 +1,1122 @@
+{
+  "REGIONS": [
+    {
+      "region": "Bruce County",
+      "oht": "South Bruce Ontario Health Team",
+      "population": 68000,
+      "residents_without_doctor": 12000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "Municipality of Arran Elderslie",
+        "Municipality of Brockton",
+        "Municipality of Kincardine",
+        "Municipality of Northern Bruce Peninsula",
+        "Municipality of South Bruce",
+        "Town of Saugeen Shores",
+        "Town of South Bruce Peninsula",
+        "Township of Huron-Kinloss"
+      ]
+    },
+    {
+      "region": "Dufferin County",
+      "oht": "Dufferin-Caledon Ontario Health Team",
+      "population": 62000,
+      "residents_without_doctor": 10000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "Town of Grand Valley",
+        "Town of Mono",
+        "Town of Orangeville",
+        "Town of Shelburne",
+        "Township of Amaranth",
+        "Township of East Garafraxa",
+        "Township of Melancthon",
+        "Township of Mulmur"
+      ]
+    },
+    {
+      "region": "Essex County",
+      "oht": "Essex Ontario Health Team",
+      "population": 422000,
+      "residents_without_doctor": 56000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Windsor (Separated)",
+        "Municipality of Leamington",
+        "Town of Amherstburg",
+        "Town of Essex",
+        "Town of Kingsville",
+        "Town of Lakeshore",
+        "Town of LaSalle",
+        "Town of Tecumseh",
+        "Township of Pelee"
+      ]
+    },
+    {
+      "region": "Frontenac County",
+      "oht": "Frontenac Ontario Health Team",
+      "population": 162000,
+      "residents_without_doctor": 21000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Kingston (Separated)",
+        "Township of Central Frontenac",
+        "Township of Frontenac Islands",
+        "Township of North Frontenac",
+        "Township of South Frontenac"
+      ]
+    },
+    {
+      "region": "Grey County",
+      "oht": "Grey Bruce Ontario Health Team",
+      "population": 92000,
+      "residents_without_doctor": 15000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Owen Sound",
+        "Town of The Blue Mountains",
+        "Town of Hanover",
+        "Municipality of Meaford",
+        "Township of Chatsworth",
+        "Township of Georgian Bluffs",
+        "Municipality of Grey Highlands",
+        "Township of Southgate",
+        "Municipality of West Grey"
+      ]
+    },
+    {
+      "region": "Elgin County",
+      "oht": "Elgin Ontario Health Team",
+      "population": 91000,
+      "residents_without_doctor": 12000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "City of St. Thomas (Separated)",
+        "Municipality of Bayham",
+        "Municipality of Central Elgin",
+        "Municipality of Dutton/Dunwich",
+        "Municipality of West Elgin",
+        "Town of Aylmer",
+        "Township of Malahide",
+        "Township of Southwold"
+      ]
+    },
+    {
+      "region": "Hastings County",
+      "oht": "Hastings-Prince Edward Ontario Health Team",
+      "population": 145000,
+      "residents_without_doctor": 21000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Belleville (Separated)",
+        "City of Quinte West (Separated)",
+        "Municipality of Centre Hastings",
+        "Municipality of Hastings Highlands",
+        "Municipality of Marmora and Lake",
+        "Municipality of Tweed",
+        "Town of Bancroft",
+        "Town of Deseronto",
+        "Township of Carlow/Mayo",
+        "Township of Faraday",
+        "Township of Limerick",
+        "Township of Madoc",
+        "Township of Stirling-Rawdon",
+        "Township of Tudor & Cashel",
+        "Township of Tyendinaga",
+        "Township of Wollaston"
+      ]
+    },
+    {
+      "region": "Simcoe County",
+      "oht": "Simcoe Ontario Health Team",
+      "population": 465000,
+      "residents_without_doctor": 63000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Barrie (Separated)",
+        "City of Orillia (Separated)",
+        "Town of Bradford West Gwillimbury",
+        "Town of Collingwood",
+        "Town of Innisfil",
+        "Town of Midland",
+        "Town of New Tecumseth",
+        "Town of Penetanguishene",
+        "Town of Wasaga Beach",
+        "Township of Adjala-Tosorontio",
+        "Township of Clearview",
+        "Township of Essa",
+        "Township of Oro-Medonte",
+        "Township of Ramara",
+        "Township of Severn",
+        "Township of Springwater",
+        "Township of Tay",
+        "Township of Tiny"
+      ]
+    }
+  ]
+}
+
+{
+  "REGIONS": [
+    {
+      "region": "Lambton County",
+      "oht": "Lambton Ontario Health Team",
+      "population": 132000,
+      "residents_without_doctor": 17000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Sarnia",
+        "Municipality of Lambton Shores",
+        "Town of Petrolia",
+        "Municipality of Brooke-Alvinston",
+        "Township of Dawn-Euphemia",
+        "Township of Enniskillen",
+        "Town of Plympton-Wyoming",
+        "Township of St. Clair",
+        "Township of Warwick",
+        "Village of Oil Springs",
+        "Village of Point Edward"
+      ]
+    },
+    {
+      "region": "Lanark County",
+      "oht": "Lanark Ontario Health Team",
+      "population": 68000,
+      "residents_without_doctor": 10000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "Town of Smiths Falls",
+        "Municipality of Mississippi Mills",
+        "Town of Carleton Place",
+        "Town of Perth",
+        "Township of Beckwith",
+        "Township of Drummond-North Elmsley",
+        "Township of Lanark Highlands",
+        "Township of Montague",
+        "Township of Tay Valley"
+      ]
+    },
+    {
+      "region": "Leeds and Grenville",
+      "oht": "Leeds and Grenville Ontario Health Team",
+      "population": 101000,
+      "residents_without_doctor": 13000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Brockville",
+        "Municipality of North Grenville",
+        "Town of Gananoque",
+        "Town of Prescott",
+        "Township of Athens",
+        "Township of Augusta",
+        "Township of Edwardsburgh/Cardinal",
+        "Township of Elizabethtown-Kitley",
+        "Township of Leeds and the Thousand Islands",
+        "Township of Front of Yonge",
+        "Township of Rideau Lakes",
+        "Village of Merrickville-Wolford",
+        "Village of Westport"
+      ]
+    },
+    {
+      "region": "Middlesex County",
+      "oht": "London-Middlesex Ontario Health Team",
+      "population": 500000,
+      "residents_without_doctor": 65576,
+      "shortage_level": "severe",
+      "municipalities": [
+        "City of London",
+        "Municipality of North Middlesex",
+        "Municipality of Southwest Middlesex",
+        "Municipality of Thames Centre",
+        "Township of Adelaide Metcalfe",
+        "Township of Lucan Biddulph",
+        "Township of Middlesex Centre",
+        "Township of Strathroy-Caradoc",
+        "Village of Newbury"
+      ]
+    },
+    {
+      "region": "Oxford County",
+      "oht": "Oxford Ontario Health Team",
+      "population": 110000,
+      "residents_without_doctor": 13000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Woodstock",
+        "Town of Ingersoll",
+        "Town of Tillsonburg",
+        "Township of Blandford-Blenheim",
+        "Township of East Zorra-Tavistock",
+        "Township of Norwich",
+        "Township of South-West Oxford",
+        "Township of Zorra"
+      ]
+    },
+    {
+      "region": "Peterborough County",
+      "oht": "Peterborough Ontario Health Team",
+      "population": 135000,
+      "residents_without_doctor": 20000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "City of Peterborough",
+        "Township of Asphodel-Norwood",
+        "Township of Cavan Monaghan",
+        "Township of Douro-Dummer",
+        "Township of Havelock-Belmont-Methuen",
+        "Township of North Kawartha",
+        "Township of Otonabee-South Monaghan",
+        "Township of Selwyn",
+        "Municipality of Trent Lakes"
+      ]
+    },
+    {
+      "region": "Prescott and Russell",
+      "oht": "Prescott and Russell Ontario Health Team",
+      "population": 91000,
+      "residents_without_doctor": 14500,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Clarence-Rockland",
+        "Municipality of Casselman",
+        "Municipality of The Nation",
+        "Town of Hawkesbury",
+        "Township of Alfred and Plantagenet",
+        "Township of Champlain",
+        "Township of East Hawkesbury",
+        "Township of Russell"
+      ]
+    },
+    {
+      "region": "Renfrew County",
+      "oht": "Renfrew Ontario Health Team",
+      "population": 105000,
+      "residents_without_doctor": 16000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "City of Pembroke",
+        "Town of Arnprior",
+        "Town of Deep River",
+        "Town of Laurentian Hills",
+        "Town of Petawawa",
+        "Town of Renfrew",
+        "Township of Admaston-Bromley",
+        "Township of Bonnechere Valley",
+        "Township of Brudenell, Lyndoch and Raglan",
+        "Township of Greater Madawaska",
+        "Township of Horton",
+        "Township of Killaloe, Hagarty & Richards",
+        "Township of Laurentian Valley",
+        "Township of Madawaska Valley",
+        "Township of McNab-Braeside",
+        "Township of North Algona-Wilberforce",
+        "Township of Whitewater Region",
+        "United Townships of Head, Clara & Maria"
+      ]
+    }
+  ]
+}
+
+{
+  "REGIONS": [
+    {
+      "region": "Durham",
+      "oht": "Durham Ontario Health Team",
+      "population": 690000,
+      "residents_without_doctor": 85000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Oshawa",
+        "City of Pickering",
+        "Municipality of Clarington",
+        "Town of Ajax",
+        "Town of Whitby",
+        "Township of Brock",
+        "Township of Scugog",
+        "Township of Uxbridge"
+      ]
+    },
+    {
+      "region": "Halton",
+      "oht": "Burlington-Halton Ontario Health Team",
+      "population": 596000,
+      "residents_without_doctor": 42000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Burlington",
+        "Town of Halton Hills",
+        "Town of Milton",
+        "Town of Oakville"
+      ]
+    },
+    {
+      "region": "Niagara",
+      "oht": "Niagara Ontario Health Team",
+      "population": 480000,
+      "residents_without_doctor": 72000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Niagara Falls",
+        "City of Port Colborne",
+        "City of St. Catharines",
+        "City of Thorold",
+        "City of Welland",
+        "Town of Fort Erie",
+        "Town of Grimsby",
+        "Town of Lincoln",
+        "Town of Niagara-on-the-Lake",
+        "Town of Pelham",
+        "Township of Wainfleet",
+        "Township of West Lincoln"
+      ]
+    },
+    {
+      "region": "Peel",
+      "oht": "Mississauga Ontario Health Team",
+      "population": 1460000,
+      "residents_without_doctor": 65000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Brampton",
+        "City of Mississauga",
+        "Town of Caledon"
+      ]
+    },
+    {
+      "region": "Waterloo",
+      "oht": "KW4 Ontario Health Team",
+      "population": 387572,
+      "residents_without_doctor": 50000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Cambridge",
+        "City of Kitchener",
+        "City of Waterloo",
+        "Township of North Dumfries",
+        "Township of Wellesley",
+        "Township of Wilmot",
+        "Township of Woolwich"
+      ]
+    },
+    {
+      "region": "York",
+      "oht": "Southlake Community Ontario Health Team",
+      "population": 1250000,
+      "residents_without_doctor": 90000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Markham",
+        "City of Richmond Hill",
+        "City of Vaughan",
+        "Town of Aurora",
+        "Town of East Gwillimbury",
+        "Town of Georgina",
+        "Town of Newmarket",
+        "Town of Whitchurch-Stouffville",
+        "Township of King"
+      ]
+    }
+  ]
+}
+
+{
+  "REGIONS": [
+    {
+      "region": "Lambton County",
+      "oht": "Lambton Ontario Health Team",
+      "population": 132000,
+      "residents_without_doctor": 17000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Sarnia",
+        "Municipality of Lambton Shores",
+        "Town of Petrolia",
+        "Municipality of Brooke-Alvinston",
+        "Township of Dawn-Euphemia",
+        "Township of Enniskillen",
+        "Town of Plympton-Wyoming",
+        "Township of St. Clair",
+        "Township of Warwick",
+        "Village of Oil Springs",
+        "Village of Point Edward"
+      ]
+    },
+    {
+      "region": "Lanark County",
+      "oht": "Lanark Ontario Health Team",
+      "population": 68000,
+      "residents_without_doctor": 10000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "Town of Smiths Falls",
+        "Municipality of Mississippi Mills",
+        "Town of Carleton Place",
+        "Town of Perth",
+        "Township of Beckwith",
+        "Township of Drummond-North Elmsley",
+        "Township of Lanark Highlands",
+        "Township of Montague",
+        "Township of Tay Valley"
+      ]
+    },
+    {
+      "region": "Leeds and Grenville",
+      "oht": "Leeds and Grenville Ontario Health Team",
+      "population": 101000,
+      "residents_without_doctor": 13000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Brockville",
+        "Municipality of North Grenville",
+        "Town of Gananoque",
+        "Town of Prescott",
+        "Township of Athens",
+        "Township of Augusta",
+        "Township of Edwardsburgh/Cardinal",
+        "Township of Elizabethtown-Kitley",
+        "Township of Leeds and the Thousand Islands",
+        "Township of Front of Yonge",
+        "Township of Rideau Lakes",
+        "Village of Merrickville-Wolford",
+        "Village of Westport"
+      ]
+    },
+    {
+      "region": "Middlesex County",
+      "oht": "London-Middlesex Ontario Health Team",
+      "population": 500000,
+      "residents_without_doctor": 65576,
+      "shortage_level": "severe",
+      "municipalities": [
+        "City of London",
+        "Municipality of North Middlesex",
+        "Municipality of Southwest Middlesex",
+        "Municipality of Thames Centre",
+        "Township of Adelaide Metcalfe",
+        "Township of Lucan Biddulph",
+        "Township of Middlesex Centre",
+        "Township of Strathroy-Caradoc",
+        "Village of Newbury"
+      ]
+    },
+    {
+      "region": "Oxford County",
+      "oht": "Oxford Ontario Health Team",
+      "population": 110000,
+      "residents_without_doctor": 13000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Woodstock",
+        "Town of Ingersoll",
+        "Town of Tillsonburg",
+        "Township of Blandford-Blenheim",
+        "Township of East Zorra-Tavistock",
+        "Township of Norwich",
+        "Township of South-West Oxford",
+        "Township of Zorra"
+      ]
+    },
+    {
+      "region": "Peterborough County",
+      "oht": "Peterborough Ontario Health Team",
+      "population": 135000,
+      "residents_without_doctor": 20000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "City of Peterborough",
+        "Township of Asphodel-Norwood",
+        "Township of Cavan Monaghan",
+        "Township of Douro-Dummer",
+        "Township of Havelock-Belmont-Methuen",
+        "Township of North Kawartha",
+        "Township of Otonabee-South Monaghan",
+        "Township of Selwyn",
+        "Municipality of Trent Lakes"
+      ]
+    },
+    {
+      "region": "Prescott and Russell",
+      "oht": "Prescott and Russell Ontario Health Team",
+      "population": 91000,
+      "residents_without_doctor": 14500,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Clarence-Rockland",
+        "Municipality of Casselman",
+        "Municipality of The Nation",
+        "Town of Hawkesbury",
+        "Township of Alfred and Plantagenet",
+        "Township of Champlain",
+        "Township of East Hawkesbury",
+        "Township of Russell"
+      ]
+    },
+    {
+      "region": "Renfrew County",
+      "oht": "Renfrew Ontario Health Team",
+      "population": 105000,
+      "residents_without_doctor": 16000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "City of Pembroke",
+        "Town of Arnprior",
+        "Town of Deep River",
+        "Town of Laurentian Hills",
+        "Town of Petawawa",
+        "Town of Renfrew",
+        "Township of Admaston-Bromley",
+        "Township of Bonnechere Valley",
+        "Township of Brudenell, Lyndoch and Raglan",
+        "Township of Greater Madawaska",
+        "Township of Horton",
+        "Township of Killaloe, Hagarty & Richards",
+        "Township of Laurentian Valley",
+        "Township of Madawaska Valley",
+        "Township of McNab-Braeside",
+        "Township of North Algona-Wilberforce",
+        "Township of Whitewater Region",
+        "United Townships of Head, Clara & Maria"
+      ]
+    }
+  ]
+}
+
+{
+  "REGIONS": [
+    {
+      "region": "Northumberland County",
+      "oht": "Northumberland Ontario Health Team",
+      "population": 89000,
+      "residents_without_doctor": 14000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "Municipality of Brighton",
+        "Town of Cobourg",
+        "Municipality of Port Hope",
+        "Municipality of Trent Hills",
+        "Township of Alnwick/Haldimand",
+        "Township of Cramahe",
+        "Township of Hamilton"
+      ]
+    },
+    {
+      "region": "Stormont, Dundas, and Glengarry",
+      "oht": "Eastern Counties Ontario Health Team",
+      "population": 113000,
+      "residents_without_doctor": 17000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Cornwall",
+        "Municipality of South Dundas",
+        "Township of North Dundas",
+        "Township of North Glengarry",
+        "Township of North Stormont",
+        "Township of South Glengarry",
+        "Township of South Stormont"
+      ]
+    },
+    {
+      "region": "Wellington County",
+      "oht": "Wellington Ontario Health Team",
+      "population": 222000,
+      "residents_without_doctor": 32000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Guelph",
+        "Town of Erin",
+        "Town of Minto",
+        "Township of Centre Wellington",
+        "Township of Guelph-Eramosa",
+        "Township of Mapleton",
+        "Township of Puslinch",
+        "Township of Wellington North"
+      ]
+    },
+    {
+      "region": "Algoma District",
+      "oht": "Algoma Ontario Health Team",
+      "population": 117000,
+      "residents_without_doctor": 19000,
+      "shortage_level": "severe",
+      "municipalities": [
+        "City of Elliot Lake",
+        "City of Sault Ste. Marie",
+        "Municipality of Huron Shores",
+        "Town of Blind River",
+        "Town of Bruce Mines",
+        "Town of Thessalon",
+        "Township of Dubreuilville",
+        "Township of Hilton",
+        "Township of Hornepayne",
+        "Township of Jocelyn",
+        "Township of Johnson",
+        "Township of Laird",
+        "Township of Macdonald, Meredith and Aberdeen Additional",
+        "Municipality of Wawa",
+        "Township of Plummer Additional",
+        "Township of Prince",
+        "Township of Spanish",
+        "Township of St. Joseph",
+        "Township of Tarbutt",
+        "Township of The North Shore",
+        "Township of White River",
+        "Village of Hilton Beach"
+      ]
+    },
+    {
+      "region": "Cochrane District",
+      "oht": "Cochrane Ontario Health Team",
+      "population": 79500,
+      "residents_without_doctor": 12000,
+      "shortage_level": "severe",
+      "municipalities": [
+        "City of Timmins",
+        "Town of Cochrane",
+        "Town of Hearst",
+        "Town of Iroquois Falls",
+        "Town of Kapuskasing",
+        "Town of Moosonee",
+        "Town of Smooth Rock Falls",
+        "Township of Black River-Matheson",
+        "Township of Fauquier-Strickland",
+        "Township of Mattice-Val Côté",
+        "Township of Moonbeam",
+        "Township of Opasatika",
+        "Township of Val Rita-Harty"
+      ]
+    },
+    {
+      "region": "Manitoulin District",
+      "oht": "Manitoulin Ontario Health Team",
+      "population": 14000,
+      "residents_without_doctor": 2200,
+      "shortage_level": "severe",
+      "municipalities": [
+        "Town of Gore Bay",
+        "Town of Northeastern Manitoulin and the Islands",
+        "Township of Assiginack",
+        "Municipality of Billings",
+        "Township of Burpee and Mills",
+        "Municipality of Central Manitoulin",
+        "Township of Cockburn Island",
+        "Municipality of Gordon/Barrie Island",
+        "Township of Tehkummah"
+      ]
+    },
+    {
+      "region": "Parry Sound District",
+      "oht": "West Parry Sound Ontario Health Team",
+      "population": 20000,
+      "residents_without_doctor": 3200,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "Municipality of Callander",
+        "Municipality of Magnetawan",
+        "Municipality of Powassan",
+        "Municipality of Whitestone",
+        "Town of Kearney",
+        "Town of Parry Sound",
+        "Township of Armour",
+        "Township of Carling",
+        "Township of Joly",
+        "Township of Machar",
+        "Township of McDougall",
+        "Township of McKellar",
+        "Township of McMurrich/Monteith",
+        "Township of Nipissing",
+        "Township of Perry",
+        "Township of Ryerson",
+        "Township of Seguin",
+        "Township of Strong",
+        "Township of The Archipelago",
+        "Village of Burk's Falls",
+        "Village of South River",
+        "Village of Sundridge"
+      ]
+    },
+    {
+      "region": "Thunder Bay District",
+      "oht": "Thunder Bay Ontario Health Team",
+      "population": 150000,
+      "residents_without_doctor": 21000,
+      "shortage_level": "severe",
+      "municipalities": [
+        "City of Thunder Bay",
+        "Municipality of Greenstone",
+        "Municipality of Neebing",
+        "Municipality of Oliver Paipoonge",
+        "Town of Marathon",
+        "Township of Conmee",
+        "Township of Dorion",
+        "Township of Gillies",
+        "Township of Manitouwadge",
+        "Township of Nipigon",
+        "Township of O'Connor",
+        "Township of Red Rock",
+        "Township of Schreiber",
+        "Municipality of Shuniah",
+        "Township of Terrace Bay"
+      ]
+    },
+    {
+      "region": "Timiskaming District",
+      "oht": "Timiskaming Ontario Health Team",
+      "population": 33000,
+      "residents_without_doctor": 5000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Temiskaming Shores",
+        "Municipality of Charlton and Dack",
+        "Town of Cobalt",
+        "Town of Englehart",
+        "Town of Kirkland Lake",
+        "Town of Latchford",
+        "Township of Armstrong",
+        "Township of Brethour",
+        "Township of Casey",
+        "Township of Chamberlain",
+        "Township of Coleman",
+        "Township of Evanturel",
+        "Township of Gauthier",
+        "Township of Harley",
+        "Township of Harris",
+        "Township of Hilliard",
+        "Township of Hudson",
+        "Township of James",
+        "Township of Kerns",
+        "Township of Larder Lake",
+        "Township of Matachewan",
+        "Township of McGarry",
+        "Village of Thornloe"
+      ]
+    }
+  ]
+}
+
+{
+  "REGIONS": [
+    {
+      "region": "Northumberland County",
+      "oht": "Northumberland Ontario Health Team",
+      "population": 89000,
+      "residents_without_doctor": 14000,
+      "shortage_level": "mild",
+      "municipalities": [
+        "Municipality of Brighton",
+        "Town of Cobourg",
+        "Municipality of Port Hope",
+        "Municipality of Trent Hills",
+        "Township of Alnwick/Haldimand",
+        "Township of Cramahe",
+        "Township of Hamilton"
+      ]
+    },
+    {
+      "region": "Stormont, Dundas, and Glengarry",
+      "oht": "Eastern Counties Ontario Health Team",
+      "population": 113000,
+      "residents_without_doctor": 17000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Cornwall",
+        "Municipality of South Dundas",
+        "Township of North Dundas",
+        "Township of North Glengarry",
+        "Township of North Stormont",
+        "Township of South Glengarry",
+        "Township of South Stormont"
+      ]
+    },
+    {
+      "region": "Wellington County",
+      "oht": "Wellington Ontario Health Team",
+      "population": 222000,
+      "residents_without_doctor": 32000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Guelph",
+        "Town of Erin",
+        "Town of Minto",
+        "Township of Centre Wellington",
+        "Township of Guelph-Eramosa",
+        "Township of Mapleton",
+        "Township of Puslinch",
+        "Township of Wellington North"
+      ]
+    },
+    {
+      "region": "Algoma District",
+      "oht": "Algoma Ontario Health Team",
+      "population": 117000,
+      "residents_without_doctor": 19000,
+      "shortage_level": "severe",
+      "municipalities": [
+        "City of Elliot Lake",
+        "City of Sault Ste. Marie",
+        "Municipality of Huron Shores",
+        "Town of Blind River",
+        "Town of Bruce Mines",
+        "Town of Thessalon",
+        "Township of Dubreuilville",
+        "Township of Hilton",
+        "Township of Hornepayne",
+        "Township of Jocelyn",
+        "Township of Johnson",
+        "Township of Laird",
+        "Township of Macdonald, Meredith and Aberdeen Additional",
+        "Municipality of Wawa",
+        "Township of Plummer Additional",
+        "Township of Prince",
+        "Township of Spanish",
+        "Township of St. Joseph",
+        "Township of Tarbutt",
+        "Township of The North Shore",
+        "Township of White River",
+        "Village of Hilton Beach"
+      ]
+    },
+    {
+      "region": "Cochrane District",
+      "oht": "Cochrane Ontario Health Team",
+      "population": 79500,
+      "residents_without_doctor": 12000,
+      "shortage_level": "severe",
+      "municipalities": [
+        "City of Timmins",
+        "Town of Cochrane",
+        "Town of Hearst",
+        "Town of Iroquois Falls",
+        "Town of Kapuskasing",
+        "Town of Moosonee",
+        "Town of Smooth Rock Falls",
+        "Township of Black River-Matheson",
+        "Township of Fauquier-Strickland",
+        "Township of Mattice-Val Côté",
+        "Township of Moonbeam",
+        "Township of Opasatika",
+        "Township of Val Rita-Harty"
+      ]
+    },
+    {
+      "region": "Manitoulin District",
+      "oht": "Manitoulin Ontario Health Team",
+      "population": 14000,
+      "residents_without_doctor": 2200,
+      "shortage_level": "severe",
+      "municipalities": [
+        "Town of Gore Bay",
+        "Town of Northeastern Manitoulin and the Islands",
+        "Township of Assiginack",
+        "Municipality of Billings",
+        "Township of Burpee and Mills",
+        "Municipality of Central Manitoulin",
+        "Township of Cockburn Island",
+        "Municipality of Gordon/Barrie Island",
+        "Township of Tehkummah"
+      ]
+    },
+    {
+      "region": "Parry Sound District",
+      "oht": "West Parry Sound Ontario Health Team",
+      "population": 20000,
+      "residents_without_doctor": 3200,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "Municipality of Callander",
+        "Municipality of Magnetawan",
+        "Municipality of Powassan",
+        "Municipality of Whitestone",
+        "Town of Kearney",
+        "Town of Parry Sound",
+        "Township of Armour",
+        "Township of Carling",
+        "Township of Joly",
+        "Township of Machar",
+        "Township of McDougall",
+        "Township of McKellar",
+        "Township of McMurrich/Monteith",
+        "Township of Nipissing",
+        "Township of Perry",
+        "Township of Ryerson",
+        "Township of Seguin",
+        "Township of Strong",
+        "Township of The Archipelago",
+        "Village of Burk's Falls",
+        "Village of South River",
+        "Village of Sundridge"
+      ]
+    },
+    {
+      "region": "Thunder Bay District",
+      "oht": "Thunder Bay Ontario Health Team",
+      "population": 150000,
+      "residents_without_doctor": 21000,
+      "shortage_level": "severe",
+      "municipalities": [
+        "City of Thunder Bay",
+        "Municipality of Greenstone",
+        "Municipality of Neebing",
+        "Municipality of Oliver Paipoonge",
+        "Town of Marathon",
+        "Township of Conmee",
+        "Township of Dorion",
+        "Township of Gillies",
+        "Township of Manitouwadge",
+        "Township of Nipigon",
+        "Township of O'Connor",
+        "Township of Red Rock",
+        "Township of Schreiber",
+        "Municipality of Shuniah",
+        "Township of Terrace Bay"
+      ]
+    },
+    {
+      "region": "Timiskaming District",
+      "oht": "Timiskaming Ontario Health Team",
+      "population": 33000,
+      "residents_without_doctor": 5000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Temiskaming Shores",
+        "Municipality of Charlton and Dack",
+        "Town of Cobalt",
+        "Town of Englehart",
+        "Town of Kirkland Lake",
+        "Town of Latchford",
+        "Township of Armstrong",
+        "Township of Brethour",
+        "Township of Casey",
+        "Township of Chamberlain",
+        "Township of Coleman",
+        "Township of Evanturel",
+        "Township of Gauthier",
+        "Township of Harley",
+        "Township of Harris",
+        "Township of Hilliard",
+        "Township of Hudson",
+        "Township of James",
+        "Township of Kerns",
+        "Township of Larder Lake",
+        "Township of Matachewan",
+        "Township of McGarry",
+        "Village of Thornloe"
+      ]
+    }
+  ]
+}
+
+{
+  "REGIONS": [
+    {
+      "region": "Toronto",
+      "oht": "Toronto Central Ontario Health Team",
+      "population": 2950000,
+      "residents_without_doctor": 415000,
+      "shortage_level": "moderate",
+      "municipalities": [
+        "City of Toronto"
+      ]
+    },
+    {
+      "region": "Single-Tier Municipalities",
+      "oht": "Individual Ontario Health Teams",
+      "population": null,
+      "residents_without_doctor": null,
+      "shortage_level": "varies",
+      "municipalities": [
+        {
+          "name": "County of Brant",
+          "population": 39000,
+          "residents_without_doctor": 6000,
+          "shortage_level": "mild"
+        },
+        {
+          "name": "City of Brantford",
+          "population": 104688,
+          "residents_without_doctor": 15000,
+          "shortage_level": "moderate"
+        },
+        {
+          "name": "City of Chatham-Kent",
+          "population": 103700,
+          "residents_without_doctor": 14000,
+          "shortage_level": "moderate"
+        },
+        {
+          "name": "City of Greater Sudbury",
+          "population": 165000,
+          "residents_without_doctor": 20000,
+          "shortage_level": "moderate"
+        },
+        {
+          "name": "Haldimand County",
+          "population": 47000,
+          "residents_without_doctor": 7000,
+          "shortage_level": "mild"
+        },
+        {
+          "name": "City of Hamilton",
+          "population": 778400,
+          "residents_without_doctor": 114000,
+          "shortage_level": "severe"
+        },
+        {
+          "name": "City of Kawartha Lakes",
+          "population": 75700,
+          "residents_without_doctor": 10000,
+          "shortage_level": "mild"
+        },
+        {
+          "name": "Norfolk County",
+          "population": 64000,
+          "residents_without_doctor": 9000,
+          "shortage_level": "mild"
+        },
+        {
+          "name": "City of Ottawa",
+          "population": 1042000,
+          "residents_without_doctor": 171000,
+          "shortage_level": "severe"
+        },
+        {
+          "name": "Prince Edward County",
+          "population": 25000,
+          "residents_without_doctor": 4000,
+          "shortage_level": "severe"
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "REGIONS": [
+    {
+      "region": "Thunder Bay District",
+      "oht": "Thunder Bay Ontario Health Team",
+      "population": 150000,
+      "residents_without_doctor": 21000,
+      "shortage_level": "severe",
+      "municipalities": [
+        "City of Thunder Bay",
+        "Municipality of Greenstone",
+        "Municipality of Neebing",
+        "Municipality of Oliver Paipoonge",
+        "Town of Marathon",
+        "Township of Conmee",
+        "Township of Dorion",
+        "Township of Gillies",
+        "Township of Manitouwadge",
+        "Township of Nipigon",
+        "Township of O'Connor",
+        "Township of Red Rock",
+        "Township of Schreiber",
+        "Municipality of Shuniah",
+        "Township of Terrace Bay"
+      ]
+    }
+  ]
+}
+
+
