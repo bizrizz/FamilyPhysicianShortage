@@ -1,5 +1,5 @@
 // Initialize the map
-const map = L.map('map').setView([51.2538, -85.3232], 6);
+const map = L.map('map').setView([43.6532, -79.3832], 6);
 
 // Add a dark tile layer for background
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
