@@ -42,10 +42,16 @@ let counterElement = document.getElementById('counter');
 function startCounter(initialCount) {
   let currentCount = initialCount;
   setInterval(() => {
-    // Random fluctuation between -10 and +10 residents
-    currentCount += Math.floor(Math.random() * 21) - 10;
-    // Update counter with the full number format
+    // Random fluctuation between -5 and +5 residents every 10 seconds
+    currentCount += Math.floor(Math.random() * 11) - 5;
+    // Update counter with flip-clock style animation
     counterElement.innerText = currentCount.toLocaleString();
-  }, 1000);
+    counterElement.style.transition = "transform 0.5s";
+    counterElement.style.transform = "scaleY(1.05)";
+    setTimeout(() => {
+      counterElement.style.transform = "scaleY(1)";
+    }, 500);
+  }, 10000); // 10-second interval for flip effect
 }
+
 
