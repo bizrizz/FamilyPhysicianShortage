@@ -63,11 +63,11 @@ function startCounter(initialCount) {
   renderCounterDisplay(currentCount);
 
   setInterval(() => {
-    // Random fluctuation between -30 and +30 residents every 10 seconds
-    currentCount += Math.floor(Math.random() * 61) - 30; // Random value from -30 to +30
+    // Random fluctuation between -5 and +5 residents every 10 seconds
+    currentCount += Math.floor(Math.random() * 11) - 5;
     renderCounterDisplay(currentCount);
-}, 10000); // 10-second interval for flip effect
-
+  }, 10000); // 10-second interval for flip effect
+}
 
 // Render the counter display with individual digit flipping effect
 function renderCounterDisplay(newCount) {
