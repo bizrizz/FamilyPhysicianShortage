@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ontario Health Team Heatmap</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq0G_JIfDKnomXAoMuo0LEPGWHTftpzDE&libraries=visualization"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ontario Healthcare Shortage Heatmap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-  <div id="counter">2,500,000</div>
-  <div id="map"></div>
+    <!-- Apple-style header with dynamic counter -->
+    <div id="counter-container">
+        <h1 id="counter">0</h1>
+        <p>Residents in Ontario without a family physician</p>
+    </div>
+    <!-- Map display -->
+    <div id="map"></div>
 </body>
 </html>
