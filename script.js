@@ -7,22 +7,23 @@ document.addEventListener("DOMContentLoaded", function() {
         attribution: '&copy; <a href="https://carto.com/">CartoDB</a>'
     }).addTo(map);
 
-    // Initialize total shortage to 2.5 million
-    let totalShortage = 2500000;
+    // Initialize total shortage to approximate 2.5 million with a slight random offset
+    let baseShortage = 2500000 + Math.floor(Math.random() * 50000);
+    let displayedCount = baseShortage; 
 
     // Display initial counter
     const counterElement = document.getElementById("counter");
-    counterElement.innerText = totalShortage.toLocaleString();
+    counterElement.innerText = displayedCount.toLocaleString();
 
     // Set up heatmap data array
     const heatData = [];
 
-    // Fetch the data and create heatmap and counter fluctuations
+    // Fetch the data and create the heatmap and counter fluctuations
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
             data.REGIONS.forEach(region => {
-                const { shortage_level, residents_without_doctor, municipalities } = region;
+                const { shortage_level, municipalities } = region;
 
                 // Map shortage levels to heat intensity
                 let intensity;
@@ -55,11 +56,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }).addTo(map);
 
-            // Function to simulate fluctuations in shortage
+            // Function to fluctuate the counter around the base value
             function fluctuateCounter() {
-                const fluctuation = Math.floor(Math.random() * 2000) * (Math.random() < 0.5 ? -1 : 1);
-                const fluctuatedValue = Math.max(totalShortage + fluctuation, 0);
-                counterElement.innerText = fluctuatedValue.toLocaleString();
+                const fluctuation = Math.floor(Math.random() * 5000) * (Math.random() < 0.5 ? -1 : 1);
+                displayedCount = Math.max(baseShortage + fluctuation, 0);
+                counterElement.innerText = displayedCount.toLocaleString();
             }
 
             // Start fluctuations every second
