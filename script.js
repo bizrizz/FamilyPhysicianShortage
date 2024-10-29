@@ -42,7 +42,10 @@ let counterElement = document.getElementById('counter');
 function startCounter(initialCount) {
   let currentCount = initialCount;
   setInterval(() => {
-    currentCount += Math.floor(Math.random() * 21) - 10; // Random fluctuation
-    counterElement.innerText = `${(currentCount / 1000000).toFixed(2)} million`;
+    // Random fluctuation between -10 and +10 residents
+    currentCount += Math.floor(Math.random() * 21) - 10;
+    // Update counter with the full number format
+    counterElement.innerText = currentCount.toLocaleString();
   }, 1000);
 }
+
