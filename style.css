@@ -38,16 +38,6 @@ body, html {
     text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-.digit {
-    display: inline-block;
-    transition: transform 0.5s ease-in-out;
-}
-
-.flip {
-    transform: rotateX(360deg);
-    transition: transform 0.5s ease-in-out;
-}
-
 #counter-container p {
     font-size: 1.1em;
     margin-top: 5px;
@@ -56,12 +46,13 @@ body, html {
     opacity: 0.85;
 }
 
+/* Styling for each individual digit with flip effect */
 .digit {
     display: inline-block;
     transition: transform 0.5s ease-in-out;
+    backface-visibility: hidden; /* Helps with the flip effect */
 }
 
 .flip {
     transform: rotateX(360deg);
-    transition: transform 0.5s ease-in-out;
 }
