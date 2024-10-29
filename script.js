@@ -1,48 +1,48 @@
 // Initialize the map
 const map = L.map('map').setView([51.2538, -85.3232], 6);
 
-// Add dark tile layer
+// Add a dark tile layer for background
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
-// Function to fetch and process data
+// Fetch data and create heat map
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
-    let totalResidentsWithoutDoctors = 2500000 + Math.floor(Math.random() * 10000 - 5000); // Random start around 2.5 million
+    let totalResidentsWithoutDoctors = 2500000 + Math.floor(Math.random() * 10000 - 5000);
     const heatMapData = data.REGIONS.map(region => {
       const { coordinates, residents_without_doctor, population } = region;
-      const intensity = residents_without_doctor / population; // Ratio
+      const intensity = residents_without_doctor / population; // Ratio for intensity
       return [...coordinates, intensity];
     });
 
     // Create heat map layer
-    L.heatLayer(heatMapData, {
-      radius: 25,
-      blur: 15,
-      maxZoom: 10,
+    const heatLayer = L.heatLayer(heatMapData, {
+      radius: 30,
+      blur: 25,
+      maxZoom: 8,
       gradient: {
         0.1: 'green',
         0.4: 'yellow',
         0.7: 'orange',
         1.0: 'red'
       }
-    }).addTo(map);
+    });
+    heatLayer.addTo(map);
 
     // Start the counter
     startCounter(totalResidentsWithoutDoctors);
   })
-  .catch(error => console.error('Error loading data:', error));
+  .catch(error => console.error('Error loading data or creating heat map:', error));
 
-// Counter functionality
+// Counter functionality with minor fluctuations
 let counterElement = document.getElementById('counter');
 
 function startCounter(initialCount) {
   let currentCount = initialCount;
   setInterval(() => {
-    // Small random fluctuation between -10 and +10
-    currentCount += Math.floor(Math.random() * 21) - 10;
+    currentCount += Math.floor(Math.random() * 21) - 10; // Random fluctuation
     counterElement.innerText = `${(currentCount / 1000000).toFixed(2)} million`;
   }, 1000);
 }
