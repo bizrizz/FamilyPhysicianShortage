@@ -14,16 +14,29 @@ fetch('data.json')
     const heatMapData = data.REGIONS.map(region => {
       const { coordinates, residents_without_doctor, population } = region;
       const intensity = residents_without_doctor / population; // Ratio for intensity
+
+      // Add a marker for each region with a popup
+      const marker = L.circleMarker(coordinates, {
+        radius: 10,
+        color: 'transparent',
+        fillColor: getFillColor(intensity),
+        fillOpacity: 0.7
+      }).addTo(map);
+
+      marker.bindPopup(
+        `<strong>${region.region}</strong><br>Residents without a doctor: ${residents_without_doctor.toLocaleString()}<br>Contribution to total: ${((residents_without_doctor / totalResidentsWithoutDoctors) * 100).toFixed(2)}%`
+      );
+
       return [...coordinates, intensity];
     });
 
     // Create heat map layer
     const heatLayer = L.heatLayer(heatMapData, {
-      radius: 30,
+      radius: 40,
       blur: 25,
       maxZoom: 8,
       gradient: {
-        0.1: 'green',
+        0.2: 'green',
         0.4: 'yellow',
         0.7: 'orange',
         1.0: 'red'
@@ -35,6 +48,14 @@ fetch('data.json')
     startCounter(totalResidentsWithoutDoctors);
   })
   .catch(error => console.error('Error loading data or creating heat map:', error));
+
+// Utility function to determine fill color based on intensity
+function getFillColor(intensity) {
+  if (intensity > 0.7) return 'red';
+  if (intensity > 0.4) return 'orange';
+  if (intensity > 0.2) return 'yellow';
+  return 'green';
+}
 
 // Counter functionality with flip effect on each digit
 function startCounter(initialCount) {
