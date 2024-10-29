@@ -1,33 +1,33 @@
-/* Fullscreen map styling */
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
 #map {
-    height: 100vh;
-    width: 100%;
+  width: 90vw;
+  height: 80vh;
+  border: 2px solid white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
 }
 
-/* Counter Styling */
 #counter {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-family: 'Apple System', BlinkMacSystemFont, sans-serif;
-    font-size: 2rem;
-    color: white;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+  animation: flip 1s ease;
 }
 
-/* Flip animation */
-.digit-container {
-    display: inline-block;
-    perspective: 1000px;
-    margin-right: 3px;
-}
-
-.digit {
-    display: block;
-    transform-style: preserve-3d;
-    transform: rotateX(0deg);
-    transition: transform 0.5s ease;
-}
-
-.digit.flip {
-    transform: rotateX(90deg);
+@keyframes flip {
+  0% { transform: rotateX(0); }
+  50% { transform: rotateX(90deg); }
+  100% { transform: rotateX(0); }
 }
