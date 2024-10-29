@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
 
                 municipalities.forEach(municipality => {
-                    // Create a circle for each municipality
+                    // Check if the municipality is an object or a string
+                    const name = typeof municipality === "string" ? municipality : municipality.name;
                     const lat = municipality.lat || region.lat; // Use lat/lng if specified
                     const lng = municipality.lng || region.lng;
                     if (lat && lng) {
@@ -35,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             fillOpacity: 0.7,
                             radius: 10000 // Adjust radius for visualization
                         }).addTo(map).bindPopup(
-                            `<strong>${municipality.name || municipality}</strong><br>Population: ${region.population}<br>Shortage Level: ${shortage_level}`
+                            `<strong>${name}</strong><br>Population: ${region.population || 'N/A'}<br>Shortage Level: ${shortage_level}`
                         );
                     }
                 });
