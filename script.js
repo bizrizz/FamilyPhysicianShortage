@@ -1,70 +1,49 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const map = L.map('map').setView([51.2538, -85.3232], 6); // Centered on Ontario
+// Initialize the map
+const map = L.map('map').setView([51.2538, -85.3232], 6);
 
-    // Dark basemap layer
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 10,
-        attribution: '&copy; <a href="https://carto.com/">CartoDB</a>'
+// Add dark tile layer
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+// Function to fetch and process data
+fetch('data.json')
+  .then(response => response.json())
+  .then(data => {
+    let totalResidentsWithoutDoctors = 0;
+    const heatMapData = data.REGIONS.map(region => {
+      const { coordinates, residents_without_doctor, population } = region;
+      const intensity = residents_without_doctor / population; // Ratio
+      totalResidentsWithoutDoctors += residents_without_doctor;
+      return [...coordinates, intensity];
+    });
+
+    // Create heat map layer
+    L.heatLayer(heatMapData, {
+      radius: 25,
+      blur: 15,
+      maxZoom: 10,
+      gradient: {
+        0.1: 'green',
+        0.4: 'yellow',
+        0.7: 'orange',
+        1.0: 'red'
+      }
     }).addTo(map);
 
-    // Initialize total shortage to approximate 2.5 million with a slight random offset
-    let baseShortage = 2500000 + Math.floor(Math.random() * 50000);
-    let displayedCount = baseShortage; 
+    // Start the counter
+    startCounter(totalResidentsWithoutDoctors);
+  })
+  .catch(error => console.error('Error loading data:', error));
 
-    // Display initial counter
-    const counterElement = document.getElementById("counter");
-    counterElement.innerText = displayedCount.toLocaleString();
+// Counter functionality
+let counterElement = document.getElementById('counter');
 
-    // Set up heatmap data array
-    const heatData = [];
-
-    // Fetch the data and create the heatmap and counter fluctuations
-    fetch('data.json')
-        .then(response => response.json())
-        .then(data => {
-            data.REGIONS.forEach(region => {
-                const { shortage_level, municipalities } = region;
-
-                // Map shortage levels to heat intensity
-                let intensity;
-                switch (shortage_level) {
-                    case "severe": intensity = 1.0; break;
-                    case "moderate": intensity = 0.6; break;
-                    case "mild": intensity = 0.3; break;
-                    default: intensity = 0.1;
-                }
-
-                municipalities.forEach(municipality => {
-                    const lat = municipality.lat || region.lat;
-                    const lng = municipality.lng || region.lng;
-                    if (lat && lng) {
-                        heatData.push([lat, lng, intensity]);
-                    }
-                });
-            });
-
-            // Apply heatmap layer
-            L.heatLayer(heatData, {
-                radius: 20,
-                blur: 15,
-                maxZoom: 10,
-                gradient: {
-                    0.1: 'blue',
-                    0.3: 'lime',
-                    0.6: 'orange',
-                    1.0: 'red'
-                }
-            }).addTo(map);
-
-            // Function to fluctuate the counter around the base value
-            function fluctuateCounter() {
-                const fluctuation = Math.floor(Math.random() * 5000) * (Math.random() < 0.5 ? -1 : 1);
-                displayedCount = Math.max(baseShortage + fluctuation, 0);
-                counterElement.innerText = displayedCount.toLocaleString();
-            }
-
-            // Start fluctuations every second
-            setInterval(fluctuateCounter, 1000);
-        })
-        .catch(error => console.error("Error loading data:", error));
-});
+function startCounter(initialCount) {
+  let currentCount = initialCount;
+  setInterval(() => {
+    // Random fluctuation
+    currentCount += Math.floor(Math.random() * 1000) - 500;
+    counterElement.innerText = `${(currentCount / 1000000).toFixed(2)} million`;
+  }, 1000);
+}
