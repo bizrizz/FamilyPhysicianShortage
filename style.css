@@ -53,3 +53,19 @@ body, html {
 .leaflet-control-attribution {
     display: none; /* Hides attribution for a cleaner look */
 }
+
+#counter {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: 'Apple SD Gothic Neo', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  transform-origin: center;
+  transition: transform 0.5s;
+}
+
+.flip {
+  transform: rotateX(360deg);
+  transition: transform 0.5s;
+}
+
