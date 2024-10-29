@@ -1,33 +1,55 @@
-body {
-  margin: 0;
-  background-color: black;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
+/* Base styling for an Apple-inspired look */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Pure black background */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #fff;
 }
 
 #map {
-  width: 90vw;
-  height: 80vh;
-  border: 2px solid white;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 90vh; /* Take up most of the viewport height */
 }
 
-#counter {
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #f0f0f0;
-  animation: flip 1s ease;
+#counter-container {
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    color: #FFF;
+    font-weight: 600;
 }
 
-@keyframes flip {
-  0% { transform: rotateX(0); }
-  50% { transform: rotateX(90deg); }
-  100% { transform: rotateX(0); }
+#counter-container h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#counter-container p {
+    font-size: 1.1em;
+    margin-top: 5px;
+    color: #bbb;
+    letter-spacing: 0.5px;
+    opacity: 0.85;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: #333; /* Dark background for popups */
+    color: #f1f1f1;
+    font-weight: 400;
+}
+
+.leaflet-control-attribution {
+    display: none; /* Hides attribution for a cleaner look */
 }
