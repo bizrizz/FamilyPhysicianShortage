@@ -10,11 +10,10 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
-    let totalResidentsWithoutDoctors = 0;
+    let totalResidentsWithoutDoctors = 2500000 + Math.floor(Math.random() * 10000 - 5000); // Random start around 2.5 million
     const heatMapData = data.REGIONS.map(region => {
       const { coordinates, residents_without_doctor, population } = region;
       const intensity = residents_without_doctor / population; // Ratio
-      totalResidentsWithoutDoctors += residents_without_doctor;
       return [...coordinates, intensity];
     });
 
@@ -42,8 +41,8 @@ let counterElement = document.getElementById('counter');
 function startCounter(initialCount) {
   let currentCount = initialCount;
   setInterval(() => {
-    // Random fluctuation
-    currentCount += Math.floor(Math.random() * 1000) - 500;
+    // Small random fluctuation between -10 and +10
+    currentCount += Math.floor(Math.random() * 21) - 10;
     counterElement.innerText = `${(currentCount / 1000000).toFixed(2)} million`;
   }, 1000);
 }
