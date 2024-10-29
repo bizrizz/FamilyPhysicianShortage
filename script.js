@@ -57,34 +57,42 @@ function getFillColor(intensity) {
   return 'green';
 }
 
-// Counter functionality with flip effect on each digit
+// Counter functionality with individual digit flip effect
 function startCounter(initialCount) {
   let currentCount = initialCount;
-  updateCounterDisplay(currentCount);
+  renderCounterDisplay(currentCount);
 
   setInterval(() => {
     // Random fluctuation between -5 and +5 residents every 10 seconds
     currentCount += Math.floor(Math.random() * 11) - 5;
-    updateCounterDisplay(currentCount);
+    renderCounterDisplay(currentCount);
   }, 10000); // 10-second interval for flip effect
 }
 
-// Update the counter display with individual digit flipping effect
-function updateCounterDisplay(newCount) {
+// Render the counter display with individual digit flipping effect
+function renderCounterDisplay(newCount) {
   const counterElement = document.getElementById('counter');
   const newDigits = newCount.toLocaleString().split('');
-  
-  // Clear the counter element and re-add each digit with animation
-  counterElement.innerHTML = '';
+
+  // Get the current digits displayed in the counter
+  const currentDigits = Array.from(counterElement.children).map(span => span.textContent);
+
+  // Update each digit, only flipping those that change
   newDigits.forEach((digit, index) => {
-    const digitElement = document.createElement('span');
-    digitElement.className = 'digit';
-    digitElement.textContent = digit;
+    let digitElement = counterElement.children[index];
 
-    // Add flip effect only if it's a changing digit
-    digitElement.classList.add("flip");
-    setTimeout(() => digitElement.classList.remove("flip"), 500);
+    if (!digitElement) {
+      // If the span does not exist, create it
+      digitElement = document.createElement('span');
+      digitElement.className = 'digit';
+      counterElement.appendChild(digitElement);
+    }
 
-    counterElement.appendChild(digitElement);
+    if (digitElement.textContent !== digit) {
+      // Only apply flip effect if the digit has changed
+      digitElement.classList.add('flip');
+      digitElement.textContent = digit;
+      setTimeout(() => digitElement.classList.remove('flip'), 500);
+    }
   });
 }
