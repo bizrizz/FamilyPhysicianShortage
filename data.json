@@ -1,142 +1,136 @@
 {
   "REGIONS": [
     {
-      "region": "Bruce County",
-      "coordinates": [44.4011, -81.3779],
-      "population": 68000,
-      "residents_without_doctor": 12000
-    },
-    {
-      "region": "Dufferin County",
-      "coordinates": [43.9622, -80.1036],
-      "population": 62000,
-      "residents_without_doctor": 10000
-    },
-    {
-      "region": "Essex County",
-      "coordinates": [42.3149, -83.0364],
-      "population": 422000,
-      "residents_without_doctor": 56000
-    },
-    {
-      "region": "Frontenac County",
-      "coordinates": [44.2312, -76.4860],
-      "population": 162000,
-      "residents_without_doctor": 21000
-    },
-    {
-      "region": "Grey County",
-      "coordinates": [44.5592, -80.9343],
-      "population": 92000,
-      "residents_without_doctor": 15000
-    },
-    {
-      "region": "Elgin County",
-      "coordinates": [42.7775, -81.1640],
-      "population": 91000,
-      "residents_without_doctor": 12000
-    },
-    {
-      "region": "Hastings County",
-      "coordinates": [44.5703, -77.3803],
-      "population": 145000,
-      "residents_without_doctor": 21000
-    },
-    {
-      "region": "Simcoe County",
-      "coordinates": [44.3894, -79.6903],
-      "population": 465000,
-      "residents_without_doctor": 63000
-    },
-    {
-      "region": "Lambton County",
-      "coordinates": [42.7937, -82.2406],
-      "population": 132000,
-      "residents_without_doctor": 17000
-    },
-    {
-      "region": "Lanark County",
-      "coordinates": [45.0000, -76.2500],
-      "population": 68000,
-      "residents_without_doctor": 10000
-    },
-    {
-      "region": "Leeds and Grenville",
-      "coordinates": [44.6001, -75.9660],
-      "population": 101000,
-      "residents_without_doctor": 13000
-    },
-    {
-      "region": "Middlesex County",
-      "coordinates": [42.9508, -81.2462],
-      "population": 500000,
-      "residents_without_doctor": 65576
-    },
-    {
-      "region": "Oxford County",
-      "coordinates": [43.1796, -80.6024],
-      "population": 110000,
-      "residents_without_doctor": 13000
-    },
-    {
-      "region": "Peterborough County",
-      "coordinates": [44.3001, -78.3197],
-      "population": 135000,
-      "residents_without_doctor": 20000
-    },
-    {
-      "region": "Prescott and Russell",
-      "coordinates": [45.3384, -75.2328],
-      "population": 91000,
-      "residents_without_doctor": 14500
-    },
-    {
-      "region": "Renfrew County",
-      "coordinates": [45.6400, -77.2500],
-      "population": 105000,
-      "residents_without_doctor": 16000
-    },
-    {
-      "region": "Durham",
-      "coordinates": [43.9453, -78.8965],
-      "population": 690000,
-      "residents_without_doctor": 85000
-    },
-    {
-      "region": "Halton",
-      "coordinates": [43.5167, -79.8833],
-      "population": 596000,
-      "residents_without_doctor": 42000
-    },
-    {
-      "region": "Niagara",
-      "coordinates": [43.0896, -79.0849],
-      "population": 480000,
-      "residents_without_doctor": 72000
-    },
-    {
-      "region": "Peel",
-      "coordinates": [43.7315, -79.7624],
-      "population": 1460000,
-      "residents_without_doctor": 65000
-    },
-    {
-      "region": "Waterloo",
-      "coordinates": [43.4643, -80.5204],
-      "population": 387572,
-      "residents_without_doctor": 50000
-    },
-    {
-      "region": "York",
-      "coordinates": [43.8838, -79.4343],
-      "population": 1250000,
-      "residents_without_doctor": 90000
-    },
-    {
       "region": "Toronto",
       "coordinates": [43.6532, -79.3832],
       "population": 2950000,
       "residents_without_doctor": 415000
+    },
+    {
+      "region": "Ottawa",
+      "coordinates": [45.4215, -75.6972],
+      "population": 1042000,
+      "residents_without_doctor": 120000
+    },
+    {
+      "region": "Mississauga",
+      "coordinates": [43.5890, -79.6441],
+      "population": 828000,
+      "residents_without_doctor": 95000
+    },
+    {
+      "region": "Brampton",
+      "coordinates": [43.7315, -79.7624],
+      "population": 603000,
+      "residents_without_doctor": 65000
+    },
+    {
+      "region": "Hamilton",
+      "coordinates": [43.2557, -79.8711],
+      "population": 780000,
+      "residents_without_doctor": 88000
+    },
+    {
+      "region": "London",
+      "coordinates": [42.9849, -81.2453],
+      "population": 383000,
+      "residents_without_doctor": 46000
+    },
+    {
+      "region": "Markham",
+      "coordinates": [43.8561, -79.3370],
+      "population": 345000,
+      "residents_without_doctor": 37000
+    },
+    {
+      "region": "Vaughan",
+      "coordinates": [43.8361, -79.4983],
+      "population": 331000,
+      "residents_without_doctor": 39000
+    },
+    {
+      "region": "Kitchener",
+      "coordinates": [43.4516, -80.4925],
+      "population": 256000,
+      "residents_without_doctor": 32000
+    },
+    {
+      "region": "Windsor",
+      "coordinates": [42.3149, -83.0364],
+      "population": 233000,
+      "residents_without_doctor": 31000
+    },
+    {
+      "region": "Richmond Hill",
+      "coordinates": [43.8786, -79.4403],
+      "population": 202000,
+      "residents_without_doctor": 25000
+    },
+    {
+      "region": "Barrie",
+      "coordinates": [44.3894, -79.6903],
+      "population": 153000,
+      "residents_without_doctor": 23000
+    },
+    {
+      "region": "Sudbury",
+      "coordinates": [46.4900, -81.0105],
+      "population": 161000,
+      "residents_without_doctor": 22000
+    },
+    {
+      "region": "Guelph",
+      "coordinates": [43.5448, -80.2482],
+      "population": 132000,
+      "residents_without_doctor": 17000
+    },
+    {
+      "region": "Thunder Bay",
+      "coordinates": [48.3809, -89.2477],
+      "population": 121000,
+      "residents_without_doctor": 18000
+    },
+    {
+      "region": "Kingston",
+      "coordinates": [44.2312, -76.4860],
+      "population": 136000,
+      "residents_without_doctor": 20000
+    },
+    {
+      "region": "Waterloo",
+      "coordinates": [43.4643, -80.5204],
+      "population": 105000,
+      "residents_without_doctor": 12000
+    },
+    {
+      "region": "Scarborough",
+      "coordinates": [43.7755, -79.2577],
+      "population": 632000,
+      "residents_without_doctor": 75000
+    },
+    {
+      "region": "Oshawa",
+      "coordinates": [43.8971, -78.8658],
+      "population": 170000,
+      "residents_without_doctor": 21000
+    },
+    {
+      "region": "Burlington",
+      "coordinates": [43.3255, -79.7990],
+      "population": 183000,
+      "residents_without_doctor": 25000
+    },
+    {
+      "region": "Oakville",
+      "coordinates": [43.4675, -79.6877],
+      "population": 211000,
+      "residents_without_doctor": 29000
+    },
+    {
+      "region": "St. Catharines",
+      "coordinates": [43.1594, -79.2469],
+      "population": 133000,
+      "residents_without_doctor": 19000
     }
   ]
 }
